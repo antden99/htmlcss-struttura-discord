@@ -17,18 +17,21 @@ body{
 .item1{
     width: 10%;
     border:1px dotted black;
+    background-color: orange;
 }
 
 .item2{
     width: 20%;
     text-align: center;
     border:1px dotted black;
+    background-color: orange;
 }
 
 .item3{
     width: 10%;
     text-align: end;
     border:1px dotted black;
+    background-color: orange;
 }
 
 
@@ -74,6 +77,15 @@ body{
     
 }
 
+.sixth_section{
+    height: 400px;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    border-bottom: 5px solid gray;
+}
+
 .container_1{
     width: 20%;
     height: 80%;
@@ -102,4 +114,36 @@ body{
     height: 80%;
     background-color: green;
     border: 1px dotted;
+}
+
+#area_0{
+    width: 13%;
+    height: 80%;
+    background-color: rgb(192, 144, 152);
+    border: 1px dotted;
+}
+
+#area_1{
+    width: 9%;
+    height: 80%;
+    background-color: green;
+    border: 1px dotted;
+}
+
+#site_footer{
+    height: 40px;
+    background-color: rgb(156, 228, 183) ;
+    display: flex;
+    justify-content: center; 
+    align-items:end;
+    border-bottom: 5px solid rgb(133, 54, 54);
+}
+
+.padre{
+    background-color: orange;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
